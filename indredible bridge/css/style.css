@@ -1,0 +1,100 @@
+/*DEFAULT*/
+.test {
+    margin: 0% 0;
+    border: 1px solid black;
+    height: 300px;
+}
+
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.silver {
+    color: silver;
+}
+
+.breadcrumb {
+    margin: 3.5% 0 0 0;
+}
+
+/*LOGO*/
+
+.logo {
+    float: left;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-logo {
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.8s;
+}
+
+#myPages:hover .text-logo {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+/*MENU*/
+
+.navbar-default {
+    opacity: 0.8;
+
+    background-color: white;
+
+}
+
+.navbar-nav>li>a {
+    text-transform: uppercase;
+    font-family: 'Germania One';
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background: #499ad4;
+    color: white;
+    border-bottom: 2px solid red;
+}
+
+#mainmenu li:hover ul.sub-menu {
+    display: block;
+}
+
+#mainmenu ul.sub-menu {
+    padding-left: 8px;
+    font-family: 'Germania One';
+    display: none;
+}
+
+#mainmenu ul.sub-menu li:hover {
+    background-color: #499ad4;
+}
+
+
+
+.sub-menu {
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    font-family: 'Germania One';
+}
+
+.sub-menu li {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: 5px 8px;
+}
+
+#mainmenu >li.has-child>a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color:  silver;
+    text-decoration: none;
+    right:0px;  
+}

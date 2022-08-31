@@ -1,0 +1,17 @@
+p{
+    font-size:20px;
+    text-align: justify;
+font-family: Garamond;
+}
+b{
+    font-size:25px;
+    font-family: Courier new ;
+}
+h2{
+    font-family: 'Tahoma';
+}
+
+footer{
+    display: block;
+    margin-top: 200px;
+}

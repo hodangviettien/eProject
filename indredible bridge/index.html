@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Incredible Bridges</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Team 4" />
+    <meta name="description" content="E-Project" />
+    <meta name="keywords" content="E-Project, FPT-Aptech" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--NORMALIZE-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!--FONT-->
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-index.css" />
+</head>
+
+<body>
+    <!--Sidebar-->
+    <nav class="navbar navbar-default navbar-fixed-top ">
+        <h2 class="hidden">Menu</h2>
+        <div class="container" id="nav-header">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                </button>
+                <a href="index.html" class="navbar-brand" id="myPages">
+                    <img src="./logo.jpg" alt="logo" class="logo" />
+                    <span class="text-logo">Incredible Bridges</span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right" id="mainmenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Information</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Top Longest</a></li>
+                            <li><a href="">Top Highest</a></li>
+                            <li><a href="">Top Oldest</a></li>
+                            <li><a href="">Iconic Brigdes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact Us</a>
+                        <ul class="sub-menu">
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Feedback</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+
+    <h2 class="hidden">Header</h2>
+    <div class="sidebar">
+        <h3 class="hide">Sidebar</h3>
+        <div id="carousel-simple" class="carousel multi-item-carousel slide cold-md-6">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-simple" data-slide-to="1"></li>
+                <li data-target="#carousel-simple" data-slide-to="2"></li>
+
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="">
+                        <img src="image/Resize/Sheikh Zayed Bridge/800x600/944_sheik_rend_02-2165x1080.jpg"
+                            alt="Sheikh Zayed Bridge" class="center-block casourel-style">
+                        <div class="carousel-caption">
+                            <p class="paragraph-side">
+                                Sheikh Zayed Bridge
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img src="image/Resize/The Twist Gallery/800x600/copyright_laurianghinitoiu_kistefosmuseum-4-of-17-7898.jpg"
+                            alt="The Twist Gallery" class="center-block casourel-style">
+                        <div class="carousel-caption">
+                            <p class="paragraph-side">
+                                The Twist Gallery
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="item">
+                    <a href="">
+                        <img src="image/Resize/Helix/800x600/404038_00_N424_highresjpg-1980x1327.jpg" alt="Helix"
+                            class="center-block casourel-style">
+                        <div class="carousel-caption">
+                            <p class="paragraph-side">
+                                Helix
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                    <i class="glyphicon glyphicon-chevron-left"></i></a>
+                <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                    <i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2>Information</h2>
+    <hr>
+
+    <footer>
+        Copyright &copy; by Group 4 - T1.2205.MO - FPT-Aptech
+    </footer>
+
+    <!---->
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sub-menu').parent('li').addClass('has-child');
+        })
+
+
+    </script>
+</body>
+
+
+</html>
