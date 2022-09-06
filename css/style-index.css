@@ -45,7 +45,7 @@
     margin-top: -10px;
     width: 40px;
     height: 40px;
-    border-radius: 30% 30%;
+    border-radius: 55% 55%;
 }
 
 .text-logo {
@@ -70,10 +70,11 @@
     text-transform: uppercase;
     font-family: 'Germania One';
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    /* background-color: beige; */
+    
     color: black;
     border-bottom: 2px solid red;
     text-decoration: none;
@@ -92,6 +93,7 @@
 
 #mainmenu ul.sub-menu li:hover {
     background-color: beige;
+    color: black
 }
 
 .sub-menu {
@@ -106,6 +108,9 @@
     position: relative;
     display: block;
     padding: 8px 8px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Germania One';
 }
 
 #mainmenu>li.has-child>a::after {
@@ -127,10 +132,13 @@
     font-size: 10px;
     background-color: rgb(226, 226, 226);
     text-align: center;
+    opacity: 0.8;
 }
 th{
     text-align: center;
 }
+
 footer {
     text-align: center;
+    
 }
