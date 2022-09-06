@@ -1,6 +1,7 @@
 div.stars {
   width: 270px;
   display: inline-block;
+  margin:0px 620px;
 }
 
 input.star {
@@ -137,4 +138,11 @@ a:active {
 .github:hover {
   background-color: #ffffff;
   color: #4183c4;
+}
+
+h2{
+border-top: 2px dotted black ;
+  text-align: center;
+  font-family: 'Lobster';
+  font-weight: bolder;
 }
