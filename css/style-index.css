@@ -27,7 +27,7 @@
 * {
     
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 
 .silver {
@@ -63,9 +63,7 @@
 
 .navbar-default {
     opacity: 0.8;
-
-    background-color: white;
-
+    background-color: beige;
 }
 
 .navbar-nav>li>a {
@@ -75,9 +73,11 @@
 }
 
 .navbar-default .navbar-nav li a:hover {
-    background: #499ad4;
-    color: white;
+    /* background-color: beige; */
+    color: black;
     border-bottom: 2px solid red;
+    text-decoration: none;
+    
 }
 
 #mainmenu li:hover ul.sub-menu {
@@ -91,12 +91,12 @@
 }
 
 #mainmenu ul.sub-menu li:hover {
-    background-color: #499ad4;
+    background-color: beige;
 }
 
 .sub-menu {
     position: absolute;
-    background-color: white;
+    background-color: beige;
     opacity: 0.8;
     font-family: 'Germania One';
 }
@@ -105,16 +105,15 @@
     list-style: none;
     position: relative;
     display: block;
-    padding: 5px 8px;
+    padding: 8px 8px;
 }
 
 #mainmenu>li.has-child>a::after {
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 800;
     content: "\f107";
-    color: silver;
+    color: rgb(150, 149, 149);
     text-decoration: none;
-    right: 0px;
 }
 
 /*Ticket*/
