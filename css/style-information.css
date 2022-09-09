@@ -1,14 +1,17 @@
-p{
-    font-size:20px;
+p {
+    font-size: 20px;
     text-align: justify;
-font-family: Garamond;
+    font-family: Garamond;
 }
+
 b{
-    font-size:25px;
-    font-family: Courier new ;
+    font-size: 25px;
+    font-family: Courier new;
 }
-h2{
+
+h2 {
     font-family: 'Tahoma';
 }
-
-
+h3{
+    font-family: Garamond;
+}
