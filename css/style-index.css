@@ -69,8 +69,9 @@ h2{
 /*MENU*/
 
 .navbar-default {
-    opacity: 0.8;
+    opacity: 1;
     background-color: beige;
+    
 }
 
 .navbar-nav>li>a {
@@ -83,7 +84,7 @@ h2{
 .navbar-default .navbar-nav li a:hover {
     
     color: black;
-    border-bottom: 2px solid red;
+    border-bottom: 1px solid red;
     text-decoration: none;
     
 }
@@ -106,7 +107,7 @@ h2{
 .sub-menu {
     position: absolute;
     background-color: beige;
-    opacity: 0.8;
+    opacity: 1;
     font-family: 'Germania One';
 }
 
@@ -143,9 +144,14 @@ h2{
 }
 th{
     text-align: center;
+    font-size: 14px;
 }
-
+th,td{
+    font-family: 'Lobster';
+    opacity: 0.9;
+    text-decoration: none;
+color: red;    
+}
 footer {
     text-align: center;
-    
-}
+    }
