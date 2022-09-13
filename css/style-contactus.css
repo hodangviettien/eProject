@@ -14,6 +14,7 @@ label.star {
   font-size: 36px;
   color: #444;
   transition: all .2s;
+  cursor: pointer;
 }
 
 input.star:checked~label.star:before {
