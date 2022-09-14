@@ -53,6 +53,8 @@
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contactus.html">Contact Us</a>
                         <li><a href="FAQ.html">FAQ</a></li>
+                        <li class="visitor-count"><span class="fa fa-user"></span><a
+                                class="website-counter fa fa-user-alt"></a></li>
                     </ul>
                 </div>
             </div>
@@ -175,9 +177,10 @@
             </div>
         </div>
     </header>
-
-    <h2>
-        Incredible Bridges provides information about various famous bridges around the world</h2>
+    <br>
+    <p class="slogan">
+        Incredible Bridges provides information about various famous bridges around the world
+    </p>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 col-md-10 col-sm-10">
@@ -189,8 +192,8 @@
                             </span>
                         </span>
                     </div>
-                    <a href="#">
-                        <img src="image/Highest/Danyang–Kunshan Grand Bridge/Danyang–Kunshan Grand Bridge.jpg"
+                    <a href="">
+                        <img src="image/Longest/Danyang–Kunshan Grand Bridge/Danyang–Kunshan Grand Bridge.jpg"
                             style="width: 100%; height: auto;">
                     </a>
                 </div>
@@ -210,8 +213,6 @@
                     </p>
                 </div>
             </div>
-
-
             <div class="col-lg-10 col-md-10 col-sm-10">
                 <div class="col-md-3">
                     <div class="news-title">
@@ -226,15 +227,18 @@
                             style="width: 100%; height: auto;">
                     </a>
                 </div>
-                <div class="col-sm-8 col-md-8">
-                    <a href="Danyang–Kunshan-Grand-Bridge.html" class="news" style="color: black ;">The Danyang–Kunshan
+                <div class="col-sm-7 col-md-8">
+                    <a href="Danyang–Kunshan-Grand-Bridge.html" class="news" style="color: black ;">The
+                        Danyang–Kunshan
                         Grand
                         Bridge</a>
 
                     <p class="news-content">
                         The world's longest bridge is the Danyang–Kunshan Grand Bridge in China, part of the
-                        Beijing-Shanghai High-Speed Railway with 164.8-kilometre-long viaduct on the Beijing–Shanghai
-                        High-Speed Railway. The bridge took four years (2006-2010) to build and cost between $8.5 and
+                        Beijing-Shanghai High-Speed Railway with 164.8-kilometre-long viaduct on the
+                        Beijing–Shanghai
+                        High-Speed Railway. The bridge took four years (2006-2010) to build and cost between $8.5
+                        and
                         $10
                         billion ...
                         <a href="Danyang–Kunshan-Grand-Bridge.html" style="font-family: Garamound; font-size: 16px">[see
@@ -242,6 +246,7 @@
                     </p>
                 </div>
             </div>
+
             <div class="col-lg-10 col-md-10 col-sm-10">
                 <div class="col-md-3">
                     <div class="news-title">
@@ -261,7 +266,8 @@
 
                     <p class="news-content">
                         is a hybrid cable-stayed/suspension bridge in New York City, spanning the East River between
-                        the boroughs of Manhattan and Brooklyn. Opened on May 24, 1883, the Brooklyn Bridge has become
+                        the boroughs of Manhattan and Brooklyn. Opened on May 24, 1883, the Brooklyn Bridge has
+                        become
                         an icon
                         of New York City...
                         <a href="brooklyn.html" style="font-family: Garamound; font-size: 16px">[see
@@ -283,12 +289,14 @@
                     </a>
                 </div>
                 <div class="col-sm-8 col-md-8">
-                    <a href="Danyang–Kunshan-Grand-Bridge.html" class="news" style="color: black ;">The Helix Bridge</a>
+                    <a href="Danyang–Kunshan-Grand-Bridge.html" class="news" style="color: black ;">The Helix
+                        Bridge</a>
 
                     <p class="news-content">
                         is a pedestrian bridge linking Marina Centre with Marina South in the Marina Bay area in
                         Singapore. It
-                        was officially opened on 24 April 2010. The intentional left handed DNA-like design, which is
+                        was officially opened on 24 April 2010. The intentional left handed DNA-like design, which
+                        is
                         the
                         opposite of normal DNA on earth...
                         <a href="the-helix.html" style="font-family: Garamound; font-size: 16px">[see
@@ -321,7 +329,7 @@
 
             <!--Sitemap-->
             <div>
-                <table class="sitetable col-lg-12 col-sm-12 col-md-12" style="text-align: center;">
+                <table class="sitetable col-lg-12 col-sm-12 col-md-12">
                     <tr class="sitemap">
                         <th><a href="index.html">Home</a></th>
                         <th><a href="#">Information</a></th>
@@ -441,6 +449,19 @@
             $('.sub-menu').parent('li').addClass('has-child');
         })
 
+        // VisitorCounter
+        var counterContainer = document.querySelector(".website-counter");
+        var resetButton = document.querySelector("#reset");
+        var visitCount = localStorage.getItem("page_view");
+
+        if (visitCount) {
+            visitCount = Number(visitCount) + 1;
+            localStorage.setItem("page_view", visitCount);
+        } else {
+            visitCount = 1;
+            localStorage.setItem("page_view", 1);
+        }
+        counterContainer.innerHTML = visitCount;
     </script>
 </body>
 

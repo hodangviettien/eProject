@@ -4,15 +4,23 @@ p {
     font-family: Garamond;
 }
 
-b{
+b {
     font-size: 25px;
     font-family: Courier new;
-    
+
 }
 
 h2 {
-    font-family: 'Tahoma';
+    
+    border-top: 2px dotted black;
+    text-align: center;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    border-bottom: 2px dotted black;
+   
+
 }
-h3{
+
+h3 {
     font-family: Garamond;
 }

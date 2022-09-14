@@ -1,16 +1,18 @@
 /*DEFAULT*/
-h2{
-    border-top: 2px dotted black ;
-      text-align: center;
-      font-family: 'Lobster';
-      font-weight: bolder;
-      border-bottom: 2px dotted black ;
-      padding: 20px;
-    }
+.slogan {
+    border-top: 2px dotted black;
+    text-align: center;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    border-bottom: 2px dotted black;
+    padding: 16px;
+font-size: 26px;
+}
+
 /*HEADER*/
 
-    /*SIDESHOW*/
-.sidebar{
+/*SIDESHOW*/
+.sidebar {
     margin-top: 50px;
 }
 
@@ -26,6 +28,7 @@ h2{
     font-size: 30px;
     text-shadow: 2px 2px black;
 }
+
 .test {
     margin: 0% 0;
     border: 1px solid black;
@@ -33,7 +36,7 @@ h2{
 }
 
 * {
-    
+
     box-sizing: border-box;
     font-family: 'Open Sans';
 }
@@ -72,7 +75,7 @@ h2{
 .navbar-default {
     opacity: 1;
     background-color: beige;
-    
+
 }
 
 .navbar-nav>li>a {
@@ -83,11 +86,11 @@ h2{
 }
 
 .navbar-default .navbar-nav li a:hover {
-    
+
     color: black;
     border-bottom: 1px solid red;
     text-decoration: none;
-    
+
 }
 
 #mainmenu li:hover ul.sub-menu {
@@ -130,27 +133,33 @@ h2{
     text-decoration: none;
 }
 
-.counter{
-    background-color: beige;
-    opacity: 1;
-    font-family: 'Germania One';
+.visitor-count {
+    left: 20px;
 }
+
+.visitor-count span {
+    bottom: 18px;
+    position: absolute;
+}
+
 /*Content*/
-.news-content{
+.news-content {
     font-size: 20px;
     text-align: justify;
     font-family: Garamond;
     border-bottom: 2px dashed silver;
     padding: 2px;
 }
-.news{
+
+.news {
     font-size: 22px;
-    font-family: 'Pacifico' ;
-    padding: 20px 0px 0px 0px ;
+    font-family: 'Pacifico';
+    padding: 20px 0px 0px 0px;
     margin-top: 50px;
-    
+
 }
-.news-title{
+
+.news-title {
     font-size: 20px;
     font-family: Lobster;
     margin-bottom: 10px;
@@ -158,43 +167,43 @@ h2{
 }
 
 /*Ticket*/
-.ticket{
-   float: left;
-    
+.ticket {
+    float: left;
 }
 
 /*Footer*/
-.sitetable{
-line-height: 20px;
-padding: 20px;
-
-
+.sitetable {
+    line-height: 25px;
+    padding: 20px;
 }
+
 .sitemap {
     font-size: 10px;
     background-color: rgb(248, 248, 239);
     text-align: center;
     opacity: 0.9;
-    
 }
-.sitemap th{
+
+.sitemap th {
     text-align: center;
     font-size: 14px;
 }
-.sitemap th,td{
+
+.sitemap th,
+td {
     font-family: 'Lobster';
     opacity: 0.9;
     ;
 }
-.sitemap td>a{
+
+.sitemap td>a {
     color: black;
-    
-} 
-.sitemap th>a{
+}
+
+.sitemap th>a {
     color: black;
-    
-} 
+}
 
 footer {
     text-align: center;
-    }
+}
