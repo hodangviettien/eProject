@@ -57,8 +57,7 @@
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contactus.html">Contact Us</a>
                         <li><a href="FAQ.html">FAQ</a></li>
-                        <li class="visitor-count"><span class="fa fa-user"></span><a
-                            class="website-counter fa fa-user-alt"></a></li>
+                       
                     </ul>
                 </div>
             </div>
@@ -346,19 +345,7 @@
             $('.sub-menu').parent('li').addClass('has-child');
         })
 
-        // VisitorCounter
-        var counterContainer = document.querySelector(".website-counter");
-        var resetButton = document.querySelector("#reset");
-        var visitCount = localStorage.getItem("page_view");
-
-        if (visitCount) {
-            visitCount = Number(visitCount) + 1;
-            localStorage.setItem("page_view", visitCount);
-        } else {
-            visitCount = 1;
-            localStorage.setItem("page_view", 1);
-        }
-        counterContainer.innerHTML = visitCount;
+       
     </script>
 
     
