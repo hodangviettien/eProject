@@ -75,7 +75,7 @@
 .navbar-default {
     opacity: 1;
     background-color: beige;
-    
+
 
 }
 
@@ -177,14 +177,16 @@
     background-color: rgb(248, 248, 239);
 
 }
-footer{
+
+footer {
     background-color: rgb(248, 248, 239);
 }
+
 /*Footer*/
 .sitetable {
     line-height: 30px;
     padding: 20px;
-    
+
 }
 
 .sitemap {
@@ -192,16 +194,14 @@ footer{
     background-color: rgb(248, 248, 239);
     text-align: center;
     opacity: 0.9;
-   
+
 }
 
 .sitemap th {
-    
     font-size: 14px;
 }
 
-.sitemap th,
-td {
+.sitemap th,td {
     font-family: 'Lobster';
     opacity: 0.9;
 }
@@ -209,11 +209,11 @@ td {
 .sitemap td>a {
     color: black;
     float: left;
+    
 }
 
 .sitemap th>a {
     color: black;
-    
 }
 
 footer {
