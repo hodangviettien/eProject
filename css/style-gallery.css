@@ -83,3 +83,11 @@ footer{
   text-align: center;
   display: block;
 }
+
+h2{
+  border-top: 2px dotted black;
+    text-align: center;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    border-bottom: 2px dotted black;
+}
