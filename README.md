@@ -1,9 +1,25 @@
-# eProject
+# eProject - Incredible Bridges
 
-Our site is live at https://hodangviettien.github.io/eProject/
+Center name: FPT-Aptech - HCMC - T1.2205.MO - Group 4
 
-Our team:
-VIET TIEN
-VINH HAO
-PHU HAO
+===================================================================
+
+-------------------------------------------------------------------
+
+Developer:
+
+Ho Dang Viet Tien (tienhdvts2205016@fpt.edu.vn) Student1384669
+
+Lam Vinh Hao (haoLVTS2205025@fpt.edu.vn) Student1381859
+
+Nguyen Phu Hao (haoNPTS2205027@fpt.edu.vn) Student1381857
+
+-------------------------------------------------------------------
+
+Our project published at https://hodangviettien.github.io/eProject/
+
+-------------------------------------------------------------------
+
+Our Github: https://github.com/hodangviettien/eProject
+
 
