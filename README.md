@@ -22,4 +22,6 @@ Our project published at https://hodangviettien.github.io/eProject/
 
 Our Github: https://github.com/hodangviettien/eProject
 
+-------------------------------------------
 
+Our document link: https://github.com/hodangviettien/eProject/tree/master/document
